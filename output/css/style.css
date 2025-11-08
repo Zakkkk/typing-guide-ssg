@@ -327,7 +327,7 @@ button:active,
         display: none;
     }
 
-    .mobile-headings:focus-within .db {
+    .mobile-headings:focus .db {
         display: inline-block;
     }
 
