@@ -8,7 +8,7 @@
 
 (def page-colors {:bg "#fbfbfb" :fg "#222"})
 
-(defn generate-time-graph []
+(defn generate-charts []
   (c/spit
    (c/category-chart
     {"#" {"0-1.9 Weeks" 2 "2-4 Weeks" 3 "1-1.9 Months" 6 "2-2.9 Months" 4 "3-4.9 Months" 1 "5-7.9 Months" 0 "8-11.9 Months" 1 "12+ Months" 1}}
@@ -61,5 +61,5 @@
 
 (defn -main [mode]
   (condp some [mode]
-    #{"charts" "all"} (generate-time-graph)
+    #{"charts" "all"} (generate-charts)
     #{"md" "all"} (create-html (rest (md/->hiccup markdown-file-contents)))))
