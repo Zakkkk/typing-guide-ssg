@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #fbfbfb;
+    color: #222;
+    font-size: 20px;
+    line-height: 26px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "DM Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1,
+.h1 {
+    font-size: 2.35rem;
+    line-height: 2.6rem;
+    margin-top: 1.3rem;
+    margin-bottom: 2.6rem;
+}
+h2,
+.h2 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+h3,
+.h3 {
+    font-size: 1.35rem;
+    line-height: 2.6rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0rem;
+}
+h4,
+.h4 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0rem;
+}
+h5,
+.h5 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0rem;
+}
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+    margin-top: 0rem;
+    margin-bottom: 1.3rem;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+ul {
+    list-style: square;
+}
+
+hr,
+.hr {
+    border: 1px solid;
+    margin: -1px 0;
+}
+a,
+b,
+i,
+strong,
+em,
+small,
+code {
+    line-height: 0;
+}
+sub,
+sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: visible;
+}
+
+code {
+    font-family: "DM Mono", monospace;
+    background: #eee;
+    font-size: 0.85rem;
+}
+
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    max-width: 840px;
+}
+
+nav {
+    width: 300px;
+    top: 1.3rem;
+    padding-right: 50px;
+    position: sticky;
+    align-self: start;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+nav .nav-item {
+    line-height: unset;
+    display: block;
+    text-decoration: none;
+    padding: 6px 0;
+    font-size: 0.75rem;
+    line-height: normal;
+    font-family: "DM Sans";
+}
+
+nav .nav-item.nav-2 {
+    padding-left: 12px;
+}
+
+nav .nav-item.nav-1:not(:first-of-type) {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+article {
+    max-width: 560px;
+}
+
+img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+a {
+    color: #007be0;
+}
