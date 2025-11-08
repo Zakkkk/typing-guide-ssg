@@ -37,17 +37,18 @@
 (defn get-headings [md-contents]
   (filter (comp #{:h2 :h3} first) md-contents))
 
+(defn get-heading-links [md-contents]
+  (map (fn [element]
+         [:a
+          {:class (condp = (first element)
+                    :h2 "nav-1"
+                    :h3 "nav-2")
+           :href (str "#" (:id (second element)))}
+          (nth element 2)]) (get-headings md-contents))) ;; .nav-item should be fixed to add into side nav
+
 (defn create-nav [md-contents]
   [:nav [:b "Contents"] [:hr]
-   (->> (get-headings md-contents)
-        (map
-         (fn [element]
-           [:a.nav-item
-            {:class (condp = (first element)
-                      :h2 "nav-1"
-                      :h3 "nav-2")
-             :href (str "#" (:id (second element)))}
-            (nth element 2)])))])
+   (get-heading-links md-contents)])
 
 (defn create-mobile-headings [md-contents]
   [:div.mobile-headings {:tabindex "1"}
@@ -57,13 +58,7 @@
     "View Contents"
     [:span.material-symbols-outlined "arrow_drop_down"]]
    [:div.dropdown-content
-    (map (fn [element]
-           [:a
-            {:class (condp = (first element)
-                      :h2 "nav-1"
-                      :h3 "nav-2")
-             :href (str "#" (:id (second element)))}
-            (nth element 2)]) (get-headings md-contents))]])
+    (get-heading-links md-contents)]])
 
 (defn site-html [md-contents]
   (h/html
