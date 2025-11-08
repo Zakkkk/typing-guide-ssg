@@ -1,4 +1,4 @@
-# guidetyping
+# An SSG for My Typing Guide
 
 Welcome to my typing guide!
 
