@@ -34,25 +34,52 @@
                          "markdown/inter.md"
                          "markdown/general.md"])))
 
+(defn get-headings [md-contents]
+  (filter (comp #{:h2 :h3} first) md-contents))
+
+(defn create-nav [md-contents]
+  [:nav [:b "Contents"] [:hr]
+   (->> (get-headings md-contents)
+        (map
+         (fn [element]
+           [:a.nav-item
+            {:class (condp = (first element)
+                      :h2 "nav-1"
+                      :h3 "nav-2")
+             :href (str "#" (:id (second element)))}
+            (nth element 2)])))])
+
+(defn create-mobile-headings [md-contents]
+  [:div.mobile-headings {:tabindex "1"}
+   [:i.db {:tabindex "1"}]
+   [:a.button.dropdown-button
+    [:span.material-symbols-outlined "toc"]
+    "View Contents"
+    [:span.material-symbols-outlined "arrow_drop_down"]]
+   [:div.dropdown-content
+    (map (fn [element]
+           [:a
+            {:class (condp = (first element)
+                      :h2 "nav-1"
+                      :h3 "nav-2")
+             :href (str "#" (:id (second element)))}
+            (nth element 2)]) (get-headings md-contents))]])
+
 (defn site-html [md-contents]
   (h/html
    (h/raw "<!doctype html>")
    [:html
     [:head
      [:title "Zak's Typing Guide"]
+     [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"}]
+     [:meta {:charset "utf-8"}]
+     [:meta {:name "viewport"
+             :content "width=device-width, initial-scale=1.0"}]
      (hp/include-css "css/normalize.css" "css/style.css")]
     [:body
      [:main
-      [:nav [:b "Contents"] [:hr]
-       (->> (filter (comp #{:h2 :h3} first) md-contents)
-            (map
-             (fn [element]
-               [:a.nav-item
-                {:class (condp = (first element)
-                          :h2 "nav-1"
-                          :h3 "nav-2")
-                 :href (str "#" (:id (second element)))}
-                (nth element 2)])))]
+      (create-mobile-headings md-contents)
+      (create-nav md-contents)
       [:article md-contents]]]]))
 
 (defn create-html [html]
