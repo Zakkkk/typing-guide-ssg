@@ -44,7 +44,7 @@
                     :h2 "nav-1"
                     :h3 "nav-2")
            :href (str "#" (:id (second element)))}
-          (nth element 2)]) (get-headings md-contents))) ;; .nav-item should be fixed to add into side nav
+          (nth element 2)]) (get-headings md-contents)))
 
 (defn create-nav [md-contents]
   [:nav [:b "Contents"] [:hr]
