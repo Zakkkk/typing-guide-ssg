@@ -60,8 +60,9 @@
         (str (site-html html))))
 
 (defn -main [mode]
-  ;; (doseq [option ["charts" "all"]]
-  ;;   (when (= option "charts")))
-  (condp some [mode]
-    #{"charts" "all"} (guidetyping.chart/generate-charts)
-    #{"md" "all"} (create-html (rest (md/->hiccup markdown-file-contents)))))
+  (let [commands {"charts" guidetyping.chart/generate-charts
+                  "md" #(create-html (rest (md/->hiccup markdown-file-contents)))}]
+    (doseq [[command action] commands]
+      (when (or (= [mode] command)
+                (= [mode] "all"))
+        (action)))))
