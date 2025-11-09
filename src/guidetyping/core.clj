@@ -3,28 +3,7 @@
   (:require [nextjournal.markdown :as md]
             [hiccup2.core :as h]
             [hiccup.page :as hp]
-            [com.hypirion.clj-xchart :as c])
-  (:import (java.awt Color)))
-
-(def page-colors {:bg "#fbfbfb" :fg "#222"})
-
-(defn generate-charts []
-  (c/spit
-   (c/category-chart
-    {"#" {"0-1.9 Weeks" 2 "2-4 Weeks" 3 "1-1.9 Months" 6 "2-2.9 Months" 4 "3-4.9 Months" 1 "5-7.9 Months" 0 "8-11.9 Months" 1 "12+ Months" 1}}
-    {:title "How long did it take to reach your old QWERTY speeds?"
-     :legend {:visible? false}
-     :theme :ggplot2
-     :plot {:background-color (Color/decode "#eeeeee")
-            :grid-lines {:visible? false}}
-     :axis {:ticks {:labels {:color (Color/decode (:fg page-colors))}}}
-     :chart {:font-color (Color/decode (:fg page-colors))
-             :background-color (Color/decode (:bg page-colors))}
-     ;; :series [{:color :red}]
-     :y-axis {:tick-mark-spacing-hint 100}
-     :x-axis {:label {:rotation 30}
-              :order ["0-1.9 Weeks" "2-4 Weeks" "1-1.9 Months" "2-2.9 Months" "3-4.9 Months" "5-7.9 Months" "8-11.9 Months" "12+ Months"]}})
-   "output/img/return-to-qwerty.svg"))
+            [guidetyping.chart]))
 
 (def markdown-file-contents
   (apply str (map slurp ["markdown/intro.md"
@@ -38,13 +17,12 @@
   (filter (comp #{:h2 :h3} first) md-contents))
 
 (defn get-heading-links [md-contents]
-  (map (fn [element]
-         [:a
-          {:class (condp = (first element)
-                    :h2 "nav-1"
-                    :h3 "nav-2")
-           :href (str "#" (:id (second element)))}
-          (nth element 2)]) (get-headings md-contents)))
+  (for [[tag properties text] (get-headings md-contents)]
+    [:a
+     {:class ({:h2 "nav-1"
+               :h3 "nav-2"} tag)
+      :href (str "#" (:id properties))}
+     text]))
 
 (defn create-nav [md-contents]
   [:nav [:b "Contents"] [:hr]
@@ -82,6 +60,8 @@
         (str (site-html html))))
 
 (defn -main [mode]
+  ;; (doseq [option ["charts" "all"]]
+  ;;   (when (= option "charts")))
   (condp some [mode]
-    #{"charts" "all"} (generate-charts)
+    #{"charts" "all"} (guidetyping.chart/generate-charts)
     #{"md" "all"} (create-html (rest (md/->hiccup markdown-file-contents)))))
