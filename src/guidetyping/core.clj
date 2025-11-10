@@ -24,11 +24,11 @@
       :href (str "#" (:id properties))}
      text]))
 
-(defn create-nav [md-contents]
+(defn create-nav [heading-links]
   [:nav [:b "Contents"] [:hr]
-   (get-heading-links md-contents)])
+   heading-links])
 
-(defn create-mobile-headings [md-contents]
+(defn create-mobile-headings [heading-links]
   [:div.mobile-headings {:tabindex "1"}
    [:i.db {:tabindex "1"}]
    [:a.button.dropdown-button
@@ -36,7 +36,7 @@
     "View Contents"
     [:span.material-symbols-outlined "arrow_drop_down"]]
    [:div.dropdown-content
-    (get-heading-links md-contents)]])
+    heading-links]])
 
 (defn site-html [md-contents]
   (h/html
@@ -51,8 +51,8 @@
      (hp/include-css "css/normalize.css" "css/style.css")]
     [:body
      [:main
-      (create-mobile-headings md-contents)
-      (create-nav md-contents)
+      (create-mobile-headings (get-heading-links md-contents))
+      (create-nav (get-heading-links md-contents))
       [:article md-contents]]]]))
 
 (defn create-html [html]
