@@ -87,8 +87,12 @@ ol ul {
     margin-bottom: 0rem;
 }
 
-ul {
+ul li {
     list-style: square;
+}
+
+ul li li {
+    list-style: circle;
 }
 
 hr,
@@ -142,6 +146,7 @@ main {
 nav {
     width: 300px;
     top: 1.3rem;
+    padding-bottom: 1.3rem; /* To get the scroll showing on the bottom */
     padding-right: 50px;
     position: sticky;
     align-self: start;

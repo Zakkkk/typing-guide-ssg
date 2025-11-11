@@ -9,7 +9,7 @@ What will this guide attempt to teach you?
 - How to build a foundational typing speed such that you can comfortably and quickly type out a variety of texts.
 - How to break into the intermediate typing stage, and beyond! Working through plateaus, speed building, and progression into the advanced stage.
 - What you can expect your progression to look like.
-- How you can avoid common pitfalls and evaluate typing advice.
+- How you can avoid common pitfalls.
 
 ## Who am I?
 
