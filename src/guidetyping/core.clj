@@ -25,7 +25,9 @@
      text]))
 
 (defn create-nav [heading-links]
-  [:nav [:b "Contents"] [:hr]
+  [:nav [:b "Contents"]
+   [:input]
+   [:hr]
    heading-links])
 
 (defn create-mobile-headings [heading-links]

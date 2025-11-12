@@ -10,7 +10,9 @@ It is commonly the case that one or more of these skills may be the bottleneck f
 
 ### Developing Finger Speed and Coordination
 
-This is likely the most important skill beyond the beginner stage for improvement.
+This is likely the most important skill beyond the beginner stage for improvement. How did I come to this conclusion?
+
+When a typist picks up a new alt layout, it is observed that they will quickly return to their old speeds before slowing down in their rate of progress. The only key variable that remained the same was that they kept the same level of finger speed and coordination.
 
 #### Problem Words
 
