@@ -26,7 +26,7 @@
 
 (defn create-nav [heading-links]
   [:nav [:b "Contents"]
-   [:input]
+   [:input#filter-headings {:placeholder "filter"}]
    [:hr]
    heading-links])
 
@@ -50,7 +50,8 @@
      [:meta {:charset "utf-8"}]
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
-     (hp/include-css "css/normalize.css" "css/style.css")]
+     (hp/include-css "css/normalize.css" "css/style.css")
+     (hp/include-js "js/filter.js")]
     [:body
      [:main
       (create-mobile-headings (get-heading-links md-contents))
