@@ -1,4 +1,5 @@
-## Practise for Intermediates and Beyond
+## Practice for Intermediates and Beyond
+
 Roughly there are four distinct skills in typing:
 
 - Raw finger speed and coordination: The ability to coordinate and move your fingers fast.
@@ -14,6 +15,12 @@ This is likely the most important skill beyond the beginner stage for improvemen
 
 When a typist picks up a new alt layout, it is observed that they will quickly return to their old speeds before slowing down in their rate of progress. The only key variable that remained the same was that they kept the same level of finger speed and coordination.
 
+### Developing Endurance
+
+### Developing Flow
+
 #### Problem Words
 
 You may find that there are some words which you cannot
+
+### Developing Range

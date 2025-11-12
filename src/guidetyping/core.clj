@@ -6,12 +6,12 @@
             [guidetyping.chart]))
 
 (def markdown-file-contents
-  (apply str (map slurp ["markdown/intro.md"
+  (apply str (map slurp ["markdown/introduction.md"
                          "markdown/basics.md"
-                         "markdown/alt.md"
+                         "markdown/learning-an-alt.md"
                          "markdown/beginner.md"
-                         "markdown/inter.md"
-                         "markdown/general.md"])))
+                         "markdown/intermediates.md"
+                         "markdown/general-advice.md"])))
 
 (defn get-headings [md-contents]
   (filter (comp #{:h2 :h3} first) md-contents))
