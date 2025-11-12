@@ -4,7 +4,7 @@ window.onload = function () {
 
   if (navElements != undefined && filterSearch != undefined) {
     filterSearch.addEventListener("keyup", (e) => {
-      let filterFor = filterSearch.value.trim().toLowerCase().split(" ");
+      let filterFor = filterSearch.value.trim().toLowerCase();
 
       navElements.forEach((navElement) => {
         if (
@@ -12,7 +12,9 @@ window.onload = function () {
           navElement.innerText
             .toLowerCase()
             .split(" ")
-            .some((title) => title.includes(filterFor))
+            .some((title) =>
+              filterFor.split(" ").some((term) => title.includes(term)),
+            )
         ) {
           navElement.classList.remove("hidden");
         } else {
