@@ -172,6 +172,10 @@ nav a.nav-1:not(:first-of-type) {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+nav input {
+    margin-bottom: 10px;
+}
+
 article {
     max-width: 560px;
 }
@@ -211,6 +215,28 @@ button:active,
     transition: all 75ms cubic-bezier(0.39, 0.58, 0.57, 1);
     box-shadow: 0 2px 2px 0px #ddd inset;
     background: #eaeaea;
+}
+
+input {
+    width: 100%;
+    outline: 0;
+    color: #222;
+    padding: 10px;
+    border-radius: 2px;
+    border: 2px solid rgb(200, 200, 210);
+    transition: all 75ms cubic-bezier(0.39, 0.58, 0.57, 1);
+    display: block;
+    font-family: "DM Sans";
+}
+
+nav input {
+    padding: 6px;
+    font-size: 0.8rem;
+}
+
+input:focus {
+    transition: all 75ms cubic-bezier(0.39, 0.58, 0.57, 1);
+    border-color: #007be0;
 }
 
 .mobile-headings {
