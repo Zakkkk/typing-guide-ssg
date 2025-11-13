@@ -34,3 +34,7 @@ In my opinion you should not correct your errors for optimal practise. This is b
 ![A screenshot showing the repeat missed words button.](img/repeat-errors.png)
 
 I do not want to overstate the importance of correcting all your errors however, as many errors will be accidental and not stemming from a larger issue. I advise experimenting with this option if you are interested.
+
+#### Switching Full Time
+
+I would not recommend switching layouts full time until you have a speed of about 40 wpm. Switching full time’s main benefit is that you will have more experience in the words and punctuation that you specifically use and rely on the most. Due to the effects of diminishing returns and non-deliberate practise you may not experience the results you were hoping for when switching full time. Nonetheless there are certainly advantages and I do recommend switching full time when you are at an appropriate speed.
