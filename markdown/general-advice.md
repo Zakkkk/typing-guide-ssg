@@ -2,4 +2,8 @@
 
 ### Which Keyboard Should I Buy?
 
-Many people buy mechanical keyboards in hopes that it improves their typing ability or comfort, however, I think this sentiment is mostly misleading.
+Many people buy mechanical keyboards in hopes that it improves their typing ability or comfort, however, I think this sentiment is mostly misleading. You only need a keyboard that works, and ideally it is at least a [6 key rollover keyboard](https://www.mechanical-keyboard.org/key-rollover-test/). Personally I prefer using laptop keyboards and membrane keyboards as they are easier to press than the average mechanical keyboard and the keycaps are much lower. You should only buy a mechanical keyboard if you are interested in the customisability or have a general interest in mechanical keyboards and do not have the expectation that it will make you a better typist.
+
+You can also consider buying an [ergonomic keyboard](https://www.youtube.com/watch?v=rnnNNLaFZ9Y), however, be aware of all the marketing behind these. Traditional row staggered boards are a completely valid preference.
+
+For what its worth, [the world record](https://youtu.be/G9pB895HubE?si=8a_G7AnFlDZnn3CH) was set on a MacBook keyboard which happens to be my preferred keyboard.

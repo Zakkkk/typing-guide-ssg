@@ -13,6 +13,10 @@ This section assumes that you cannot touch type (i.e. type without looking at yo
 
 The fastest way to learn your layout will be to throw yourself into the deep end and just start typing on it! It is possible to gradually introduce new keys to yourself through Keybr and Monkeytype, however, it will be faster to learn the keys at the same time due to diminishing returns slowing down the ‘mastery’ of a key. You should not be looking at any sort of keymap or keyboard, whether that’s on screen or physically when you are memorising your layout. The idea is that you want it to be costly for your brain to forget a key, which strongly encourages it to remember each key. Do not be discouraged when you make mistakes; a high level of accuracy is not realistic at this stage of learning. You can look at the layout every now and then, or try pressing around, or using mnemonics if you get stuck. Expect it to take anywhere from 20 minutes to two days to memorise your layout completely.
 
+#### Switching Full Time
+
+I would not recommend switching layouts full time until you have a speed of about 40 wpm. Switching full time’s main benefit is that you will have more experience in the words and punctuation that you specifically use and rely on the most. Due to the effects of diminishing returns and non-deliberate practise you may not experience the results you were hoping for when switching full time. Nonetheless there are certainly advantages and I do recommend switching full time when you are at an appropriate speed.
+
 ### The Beginner Method
 
 In the beginner stages, a lack of muscle memory is usually the culprit for a lack of speed. To develop this muscle memory I recommend:
@@ -34,7 +38,3 @@ In my opinion you should not correct your errors for optimal practise. This is b
 ![A screenshot showing the repeat missed words button.](img/repeat-errors.png)
 
 I do not want to overstate the importance of correcting all your errors however, as many errors will be accidental and not stemming from a larger issue. I advise experimenting with this option if you are interested.
-
-#### Switching Full Time
-
-I would not recommend switching layouts full time until you have a speed of about 40 wpm. Switching full time’s main benefit is that you will have more experience in the words and punctuation that you specifically use and rely on the most. Due to the effects of diminishing returns and non-deliberate practise you may not experience the results you were hoping for when switching full time. Nonetheless there are certainly advantages and I do recommend switching full time when you are at an appropriate speed.

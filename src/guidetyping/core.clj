@@ -12,7 +12,8 @@
                                     "markdown/learning-an-alt.md"
                                     "markdown/beginner.md"
                                     "markdown/intermediates.md"
-                                    "markdown/general-advice.md"]))))
+                                    "markdown/general-advice.md"
+                                    "markdown/closing.md"]))))
 
 (defn get-headings [md-contents]
   (filter (comp #{:h2 :h3} first) md-contents))
@@ -25,10 +26,19 @@
       :href (str "#" (:id properties))}
      text]))
 
+(defn wrap-heading-with-link [md-contents]
+  (for [[tag props text :as element] md-contents]
+    (if (contains? #{:h1 :h2 :h3 :h4 :h5 :h6} tag)
+      (assoc element 2 [:a {:href (str "#" (:id props))} text])
+      element)))
+
 (defn create-nav [heading-links]
-  [:nav [:b "Contents"]
-   [:input#filter-headings {:placeholder "filter"}]
-   [:hr]
+  [:nav
+   [:div.nav-info
+    [:b "Contents"]
+    [:input#filter-headings {:placeholder "filter"}]
+    [:hr]]
+
    heading-links])
 
 (defn create-mobile-headings [heading-links]
@@ -57,7 +67,11 @@
      [:main
       (create-mobile-headings (get-heading-links md-contents))
       (create-nav (get-heading-links md-contents))
-      [:article md-contents]]]]))
+      [:article
+       [:time.updated-on
+        {:date (.format (java.text.SimpleDateFormat. "yyyy/MM/dd") (new java.util.Date))}
+        (str "Last updated on " (.format (java.text.SimpleDateFormat. "dd MMM yyyy") (new java.util.Date)) ".")]
+       (wrap-heading-with-link md-contents)]]]]))
 
 (defn create-html [html]
   (spit "output/index.html"
