@@ -4,7 +4,7 @@ window.onload = function () {
 
   if (navElements != undefined && filterSearch != undefined) {
     filterSearch.addEventListener("keyup", (e) => {
-      let filterFor = filterSearch.value.trim().toLowerCase();
+      const filterFor = filterSearch.value.trim().toLowerCase();
 
       navElements.forEach((navElement) => {
         if (
