@@ -70,7 +70,9 @@
       [:article
        [:time.updated-on
         {:date (.format (java.text.SimpleDateFormat. "yyyy/MM/dd") (new java.util.Date))}
-        (str "Last updated on " (.format (java.text.SimpleDateFormat. "dd MMM yyyy") (new java.util.Date)) ".")]
+        (str "Last updated on "
+             (.format (java.time.ZonedDateTime/now (java.time.ZoneId/of "UTC"))
+                      (java.time.format.DateTimeFormatter/ofPattern "dd MMM yyyy HH:mm 'UTC'")) ".")]
        (wrap-heading-with-link md-contents)]]]]))
 
 (defn create-html [html]

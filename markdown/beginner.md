@@ -1,6 +1,6 @@
 ## Practice for the Beginner
 
-As a *rough* guideline I would consider a typist a beginner if they cannot achieve the following speeds:
+As a rough guideline I would consider a typist a beginner if they cannot achieve the following speeds:
 
 - 110 wpm on a standard 60s test on [Monkeytype](https://monkeytype.com?testSettings=NoIgLglgtgpiA0A7ArgG1UtGXs7kMiA5qhAM4AWCO2WAukA).
 - 80 wpm on a 60s Monkeytype test [with the English 10k language](https://monkeytype.com?testSettings=NoIgLglgtgpiA0A7ArgG1UtGXs7kMiA5qhAM4AWA+gIwAMA1gjtlgLpA) option.
