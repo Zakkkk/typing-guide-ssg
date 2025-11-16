@@ -27,6 +27,8 @@ A common misconception! Just because you spent 10 years on one layout, it does n
 
 *“How long did it take to reach your old QWERTY speeds?” A survey was undertaken in the AKL Discord server. Speed of respondents ranged from ~40-200 wpm. There were 18 respondents.*
 
+As another anecdote among many, [Viper reached 224 wpm in 19 days after switching](https://www.youtube.com/watch?v=rWxf32jx89c).
+
 Dedicated practise will always win over mindless usage (more to come on this later!) - another reason why it will not take an exorbitant amount of time to return to old speeds. In many cases, the habit of dedicated practise will be formed out of necessity due to an absence of ability on the new layout, leading to speeds greater than what was achieved on QWERTY. Additionally, you will only need about 10-30 minutes of daily practise to build your speed back up. This can easily be done whilst still using QWERTY day-to-day. Do not worry about your QWERTY speeds falling after learning an alt-layout, this will not happen, especially if you do occasional practise on QWERTY.
 
 ### What About Keyboard Shortcuts?

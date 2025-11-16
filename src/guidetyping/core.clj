@@ -28,7 +28,7 @@
 
 (defn wrap-heading-with-link [md-contents]
   (for [[tag props text :as element] md-contents]
-    (if (contains? #{:h1 :h2 :h3 :h4 :h5 :h6} tag)
+    (if (contains? #{:h2 :h3 :h4 :h5 :h6} tag)
       (assoc element 2 [:a {:href (str "#" (:id props))} text])
       element)))
 

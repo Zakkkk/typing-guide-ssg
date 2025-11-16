@@ -10,5 +10,5 @@ Please feel free to link or quote the guide or any appropriate section where you
 
 I have been asked a few times why I would create this guide when others already exist. The answer is simple:
 
-- Existing typing guides I have seen do not fully capture my opinions; Either they include over dogmatic information which I do not agree with or lack information which I believe is important.
+- Existing typing guides I have seen do not fully capture my opinions; Either they include overly dogmatic information which I do not agree with or lack information which I believe is important.
 - I want a place to easily reference my opinions and thoughts without needing to recall all the details.

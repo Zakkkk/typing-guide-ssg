@@ -25,9 +25,9 @@ In the beginner stages, a lack of muscle memory is usually the culprit for a lac
 - You should also turn on the punctuation setting to get a feel for where all the punctuation keys are on your layout. I no longer practise with punctuation, however, I benefited greatly from starting out with it.
 - The length of the test is up to you, starting with 25 or 50 words is a good idea, as a timed test may cut you off when you are in the middle of a word.
 
-Occasionally I would advise mixing in some default English (called e200) at a duration of 60s to work on higher speeds and common words.
+Occasionally I would advise mixing in some default English (called **e200**) at a duration of 60s or quotes to work on higher speeds and common words.
 
-The amount of time spent in the beginner stage can vary between people. Personally I spent around 40 hours, over the course of three months to achieve 100 wpm on English 10k and 120 on 60s.
+The amount of time spent in the beginner stage can vary between people. Personally I spent around 40 hours, over the course of three months to achieve 100 wpm on English 10k and 120s on 60s, whilst others can do it in under 25 hours.
 
 I suggest moving to the intermediate section of this guide when you have reached the speeds as stated, or have plateaued for months despite continuous practise.
 
