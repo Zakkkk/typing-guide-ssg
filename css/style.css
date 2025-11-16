@@ -454,3 +454,14 @@ input:focus {
 .hidden {
     display: none;
 }
+
+blockquote {
+    background: #eee;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+blockquote :last-child {
+    margin-bottom: 0;
+}
