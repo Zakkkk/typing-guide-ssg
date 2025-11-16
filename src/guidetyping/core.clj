@@ -54,7 +54,7 @@
 (defn site-html [md-contents]
   (h/html
    (h/raw "<!doctype html>")
-   [:html
+   [:html {:lang "en"}
     [:head
      [:title "Zak's Typing Guide"]
      [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"}]
