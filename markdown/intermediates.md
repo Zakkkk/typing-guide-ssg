@@ -45,7 +45,7 @@ Developing range may not be necessary if use the same layout in your everyday ty
 
 ### Developing Endurance
 
-This will not be as useful for everyday typing for many people, as every day typing is often done in shorter bursts between messages or between thoughts. Nonetheless, it can be a cool skill to develop. In my opinion a test with length 60s is the minimum amount of time needed to develop this, but 120s also fits. Long quotes are another great option.
+This will not be as useful for everyday typing for many people, as every day typing is often done in shorter bursts between messages or between thoughts. Nonetheless, it can be a cool skill to develop. In my opinion a test with length 60s is the minimum amount of time needed to develop this, with 120s fitting better. Long quotes are another great option.
 
 Setting a pace caret on Monkeytype may be a nice idea to target maintaining a certain speed for the duration of the test.
 

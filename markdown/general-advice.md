@@ -10,6 +10,8 @@ For what its worth, [the world record](https://youtu.be/G9pB895HubE?si=8a_G7AnFl
 
 ### Dealing with Plateaus
 
+Almost no matter which stage you are at, you can expect to encounter a plateau of some sort. In these times it is important to note that progress is not linear and that your practise is likely not wasted. Depending on the length of your plateau I would either keep practising in the same manner as you currently are, or change up the test you are doing. Changing the test will likely give you a bout of visible progress, keeping your spirits high.
+
 ### Get Better Sleep!
 
 A very underrated component of typing practise is the quality and amount of sleep per night. According [to this study](https://osf.io/rd8n3/overview), increasing the sleep duration by 60-90 minutes, lead to an improvement in performance of musicians on their instruments.
