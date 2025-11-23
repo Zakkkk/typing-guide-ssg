@@ -2,7 +2,7 @@
 
 Welcome to my typing guide!
 
-This guide will attempt to teach you:
+This guide to teach you:
 
 - Correct typing technique to set you up for a higher potential speed, comfort, and efficiency.
 - How to evaluate if you will benefit from the increased efficiency of investing in a modern layout.
