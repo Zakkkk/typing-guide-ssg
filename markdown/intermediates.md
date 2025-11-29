@@ -17,7 +17,7 @@ When a typist picks up a new alt layout, it is observed that they will quickly r
 
 Additionally from observations of myself and other typists, I have seen a correlation between finger speed and typing ability. There is significant overlap with typists who also play an instrument, or play rhythm games such as *Osu!*. You may think that your finger speed is not your limiting factor, however, even typing at lower speeds becomes far easier once your maximum speed has been raised.
 
-For some, a high degree of finger speed and coordination is genetic, or has been developed without realising, leading to some understating the importance of this skill, or claiming that it is something that should occur naturally. This is certainly true or some, but misleading for the majority of typists.
+For some, a high degree of finger speed and coordination is genetic, or has been developed without realising, leading to some understating the importance of this skill, or claiming that it is something that should occur naturally. This is certainly true for some, but misleading for the majority of typists.
 
 I believe if you are stuck in your improvement despite continued practise, this can be the key to unlocking a burst of improvement.
 
@@ -41,7 +41,7 @@ You may find that there are some words which you cannot type accurately, consist
 
 ### Developing Range
 
-Developing range may not be necessary if use the same layout in your everyday typing and depending on what you type out each day. However, it may still be worth practising for you. Conveniently there is a plethora of resources for this. If you wish to stick with Monkeytype, I would advise using larger dictionaries like English 1k, English 10k, even English 450k, or your favourite programming language. Also consider using the punctuation setting. If you wish to look outside of Monkeytype I recommend [Entertrained](https://entertrained.app/), a site where you can type out books. For the goal of developing range, it may be more worthwhile repeating missed words. You should focus on typing these words out with high accuracy, and minimal resets.
+Developing range may not be necessary if you use the same layout in your everyday typing and depending on what you type out each day. However, it may still be worth practising for you. Conveniently there is a plethora of resources for this. If you wish to stick with Monkeytype, I would advise using larger dictionaries like English 1k, English 10k, even English 450k, or your favourite programming language. Also consider using the punctuation setting. If you wish to look outside of Monkeytype I recommend [Entertrained](https://entertrained.app/), a site where you can type out books. For the goal of developing range, it may be more worthwhile repeating missed words. You should focus on typing these words out with high accuracy, and minimal resets.
 
 ### Developing Endurance
 
