@@ -7,7 +7,9 @@
 (defn generate-charts []
   (c/spit
    (c/category-chart
-    {"#" {"0-1.9 Weeks" 2 "2-4 Weeks" 3 "1-1.9 Months" 6 "2-2.9 Months" 4 "3-4.9 Months" 1 "5-7.9 Months" 0 "8-11.9 Months" 1 "12+ Months" 1}}
+    {"#" {"0-1.9 Weeks" 2 "2-4 Weeks" 3 "1-1.9 Months" 7 "2-2.9 Months" 4 "3-4.9 Months" 2 "5-7.9 Months" 0 "8-11.9 Months" 1 "12+ Months" 1}}
+    ;; Added silly shark to 1-1.9
+    ;; Added smudge to 3-4.9
     {:title "How long did it take to reach your old QWERTY speeds?"
      :legend {:visible? false}
      :theme :ggplot2

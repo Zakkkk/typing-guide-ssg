@@ -37,4 +37,4 @@ In my opinion you should not correct your errors for optimal practise. This is b
 
 ![A screenshot showing the repeat missed words button.](img/repeat-errors.png)
 
-I do not want to overstate the importance of correcting all your errors however, as many errors will be accidental and not stemming from a larger issue. I advise experimenting with this option if you are interested.
+I do not want to overstate the importance of repeating all your errors however, as many errors will be accidental and not stemming from a larger issue. I advise experimenting with this option if you are interested.

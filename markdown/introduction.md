@@ -4,7 +4,7 @@ Welcome to my typing guide!
 
 This guide will teach you:
 
-- Correct typing technique to set you up for a higher potential speed, comfort, and efficiency.
+- Correct typing technique to set you up for higher potential speed, comfort, and efficiency.
 - How to evaluate if you will benefit from the increased efficiency of investing in a modern layout.
 - How to build a foundational typing speed so that you can comfortably and quickly type out a variety of texts.
 - How to break into the intermediate typing stage and beyond!
