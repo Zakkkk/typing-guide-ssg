@@ -13,8 +13,8 @@
 html {
     background: var(--bg);
     color: var(--fg);
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
     scroll-behavior: smooth;
 }
 
